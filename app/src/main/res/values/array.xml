@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plants_names">
+        <item>Albahaca</item>
+        <item>Romero</item>
+        <item>Sábila</item>
+        <item>Orégano</item>
+        <item>Hierbabuena</item>
+        <item>Lechuga</item>
+        <item>Perejil</item>
+        <item>Espinacas</item>
+        <item>Apio</item>
+        <item>Girasol</item>
+        <item>Rosa</item>
+        <item>Clavel</item>
+        <item>Crisantemo</item>
+
+
+    </string-array>
+</resources>

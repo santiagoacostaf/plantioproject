@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+
+    <TableRow android:layout_width="match_parent" android:background="@color/lightGreen">
+        <TextView
+            android:text="Humedad" android:layout_span="1" android:textSize="20sp" android:gravity="center"/>
+        <TextView   android:layout_span="1" android:textSize="20sp"/>
+        <TextView android:text="Luz"  android:layout_span="1" android:textSize="20sp" android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="365dp"
+        android:background="@color/lightGreen">
+
+        <TextView
+            android:id="@+id/humidity_id"
+            android:layout_span="1"
+            android:gravity="center"
+            android:text="celda 2.1"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/image_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:src="@drawable/lettuce" />
+
+        <TextView
+            android:id="@+id/luminocity_id"
+            android:layout_span="1"
+            android:gravity="center"
+            android:text="celda 2.3"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:background="@color/lightGreen"
+        android:weightSum="8">
+
+        <TextView
+            android:gravity="center"
+            android:text="Temperatura"
+            android:textSize="20sp"/>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:gravity="center"
+            android:text="Tanque"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:background="@color/lightGreen">
+        <TextView  android:id="@+id/temperature_id" android:text="Celda 4.1" android:layout_span="1"
+            android:textSize="25sp" android:gravity="center" android:textColor="@color/white"/>
+
+        <TextView
+
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+
+             />
+        <TextView android:id="@+id/tanklevel_id" android:text="Celda 4.4" android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:background="@color/lightGreen">
+        <TextView  android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+        <TextView   android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+        <TextView  android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:background="@color/lightGreen">
+        <TextView android:background="@color/colorPrimary" android:text="encender" android:id="@+id/switch_on" android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+        <TextView android:background="@color/darkBrown" android:text="apagar" android:id="@+id/switch_off" android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+        <TextView   android:layout_span="1"  android:textSize="25sp"
+            android:gravity="center" android:textColor="@color/white"/>
+
+    </TableRow>
+</TableLayout>
